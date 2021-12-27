@@ -1,0 +1,17 @@
+.login-form {
+    width: 400px;
+    padding: 2%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#wave-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.tittle-message{
+    margin-top: -10.5%;
+}
