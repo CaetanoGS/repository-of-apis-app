@@ -41,7 +41,9 @@ export const Signup = () => {
                     <div className="row">
                         <FormGroup>
                             <Input type="checkbox" id="terms_conditions" required/>
-                            <Label for="terms_conditions" className="terms-check">I agree with all terms and conditions</Label>
+                            <Label for="terms_conditions" className="terms-check">
+                                I agree with all terms and conditions
+                            </Label>
                         </FormGroup>
                     </div>
                     <div className="row">
