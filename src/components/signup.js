@@ -12,10 +12,10 @@ export const Signup = () => {
 
     let navigate = useNavigate();
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
 
-        if (password != passwordConfirmation)
+        if (password !== passwordConfirmation)
             setConfirmationState(true);
         else
             setConfirmationState(false);
@@ -27,7 +27,7 @@ export const Signup = () => {
             passwordConfirmation: passwordConfirmation
         }
 
-        axios.post('http://localhost:3005/auth/signup', data)
+        await axios.post('http://localhost:3005/auth/signup', data)
             .then(response => {
                 if(response.status === 201)
                     navigate('/');
