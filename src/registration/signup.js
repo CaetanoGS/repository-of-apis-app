@@ -2,7 +2,7 @@ import React from "react";
 import '../assets/css/signup.css'
 import {Label, Input, Form, FormGroup, Button, Alert} from 'reactstrap';
 import Wave from "react-wavify";
-import Logo from "./logo";
+import Logo from "../components/logo";
 import PasswordStrengthMeter from "./passwordStrengthMeter";
 import {useState} from "react";
 import axios from "axios";

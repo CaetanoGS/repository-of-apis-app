@@ -1,13 +1,13 @@
 import React from 'react';
-import {Signup} from "./components/signup";
-import {Signin} from "./components/signin";
-import {Dashboard} from "./components/dashboard";
 import './App.css';
 import {
     BrowserRouter as Router,
     Route,
     Routes
 } from "react-router-dom";
+import {Signup} from "./registration/signup";
+import {Signin} from "./login/signin";
+import {Dashboard} from "./dashboard/dashboard";
 
 function App() {
   return (

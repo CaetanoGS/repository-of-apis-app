@@ -1,7 +1,7 @@
 import '../assets/css/signin.css'
 import {Input, Form, FormGroup, Button, Alert} from 'reactstrap';
 import Wave from "react-wavify";
-import Logo from "./logo";
+import Logo from "../components/logo";
 import React, {useState} from "react";
 import axios from "axios";
 import {useNavigate} from "react-router-dom";
